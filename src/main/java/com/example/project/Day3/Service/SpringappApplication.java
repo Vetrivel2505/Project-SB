@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.project.Day3.Repository.EmployeeRepo;
 import com.example.project.Day3.model.Employee;
+import com.example.project.Day5.model.Book;
 
 
 
@@ -43,5 +44,20 @@ public class SpringappApplication implements ApiService {
 	}else {
 		return false;
 	}
+	}
+	@Override
+	public boolean adduser(Book book) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean updateuser(Long id, Book book) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean deleteUser(Long id) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }
